@@ -2,8 +2,6 @@
 
 Computer Vision coursework (BSc (Hons) Computer Science, NIBM). The notebook detects diabetic retinopathy (DR) and classifies its five ICDR stages (No DR, Mild, Moderate, Severe, Proliferative) from retinal fundus photographs, using preprocessing designed to remove camera "shortcuts", data augmentation, class balancing and a fine-tuned EfficientNetB0.
 
-**Video demonstration:** [add YouTube link]
-
 ## Results (locked test set, 523 images)
 
 | Metric | Value |
