@@ -1,6 +1,6 @@
 # Diabetic Retinopathy Stage Detection with Transfer Learning
 
-Computer Vision coursework (BSc (Hons) Computer Science, NIBM). The notebook detects diabetic retinopathy (DR) and classifies its five ICDR stages (No DR, Mild, Moderate, Severe, Proliferative) from retinal fundus photographs, using preprocessing designed to remove camera "shortcuts", data augmentation, class balancing and a fine-tuned EfficientNetB0.
+CThe notebook detects diabetic retinopathy (DR) and classifies its five ICDR stages (No DR, Mild, Moderate, Severe, Proliferative) from retinal fundus photographs, using preprocessing designed to remove camera "shortcuts", data augmentation, class balancing and a fine-tuned EfficientNetB0.
 
 ## Results (locked test set, 523 images)
 
@@ -29,7 +29,7 @@ Validation kappa of the selected model: 0.896. On the mixed-camera "hard" subset
 
 | File | Description |
 |---|---|
-| `Computer_Vision_CW.ipynb` | Complete, commented notebook (all steps, with outputs) |
+| `yourfilename.ipynb` | Complete, commented notebook (all steps, with outputs) |
 | `requirements.txt` | Python packages used |
 | `results/` (optional) | Experiment log and test metrics (CSV) |
 | `figures/` (optional) | Figures used in the report |
@@ -40,20 +40,12 @@ The dataset, processed images and trained model are **not** included (see below)
 
 1. Open the notebook in Google Colab.
 2. Join the [APTOS 2019 competition](https://www.kaggle.com/competitions/aptos2019-blindness-detection) on Kaggle, create an API token, and store it in Colab Secrets as `KAGGLE_API_TOKEN`.
-3. Create a Google Drive folder named `Computer Vision CW` (or change `PROJECT_DIR` in the first cell).
+3. Create a Google Drive folder name.
 4. Use a CPU runtime for data preparation and evaluation, and a T4 GPU runtime only for the training cells.
 5. Run the notebook top to bottom. After the first full run, the resume cell reloads the processed data from Drive in about a minute.
 
 All random seeds are fixed (42), and the image-processing parameters are constants in the code, so results are reproducible.
 
-## Data and licence
-
 The images come from the APTOS 2019 Blindness Detection dataset (Kaggle) and are subject to the competition's data rules, so they are not redistributed here. Download them with the Kaggle API as described above.
 
-## Disclaimer
 
-This is a coursework research prototype and not a medical device. It must not be used for diagnosis.
-
-## Author
-
-M. H. Gunawardena
