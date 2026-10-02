@@ -1,13 +1,4 @@
-tensorflow>=2.16
-keras>=3.0
+tensorflow==2.20.0
+keras==3.13.2
+opencv-python-headless
 numpy
-pandas
-opencv-python
-scikit-learn
-scipy
-matplotlib
-seaborn
-pillow
-tqdm
-kaggle
-gradio
